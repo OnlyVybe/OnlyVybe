@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <code>Python</code> · <code>Java</code> · <code>PowerShell</code> · <code>Bash</code> · <code>Android</code>
+  <code>Python</code> · <code>Java</code> · <code>PowerShell</code> · <code>Bash</code> · <code>Android</code> · <code>Tizen</code>
 </p>
 
 <p align="center">
@@ -25,10 +25,11 @@ I build and experiment with software tools, automation, and AI-assisted workflow
 
 - Software development and developer tools
 - AI-assisted development and automation
-- Android and Android TV tooling
-- Open-source projects and technical documentation
+- Android, Android TV, and Tizen tooling
+- Device privacy, network-level filtering, and technical documentation
+- Open-source projects
 
-## Featured project
+## Featured projects
 
 ### [cleanyourtv for KIVI 24H600GR](https://github.com/OnlyVybe/cleanyourtv-kivi-24h600gr)
 
@@ -39,7 +40,20 @@ A toolkit for **KIVI 24H600GR (Android TV 7.1.1)** that combines:
 - Python, PowerShell, and ADB utilities
 - Setup guides, troubleshooting notes, and verified device-specific information
 
-[View the repository](https://github.com/OnlyVybe/cleanyourtv-kivi-24h600gr) · [Read the documentation](https://github.com/OnlyVybe/cleanyourtv-kivi-24h600gr/tree/main/docs) · [Releases](https://github.com/OnlyVybe/cleanyourtv-kivi-24h600gr/releases)
+[Repository](https://github.com/OnlyVybe/cleanyourtv-kivi-24h600gr) · [Documentation](https://github.com/OnlyVybe/cleanyourtv-kivi-24h600gr/tree/main/docs) · [Releases](https://github.com/OnlyVybe/cleanyourtv-kivi-24h600gr/releases)
+
+### [cleanyourtv for Samsung UE32N5300](https://github.com/OnlyVybe/cleanyourtv-samsung-ue32n5300)
+
+A device-specific privacy guide for **Samsung UE32N5300 (Tizen 4.0)**:
+
+- Disable ACR and optional advertising consent settings through the TV menu
+- Document what applies to this model and which upstream steps do not
+- Plan DNS-level filtering for Smart Hub ads and remaining telemetry
+- Provide checklists, verification steps, and rollback instructions
+
+No root, ADB, or software installation on the TV is required. The TV-menu settings are documented as completed; router-based DNS filtering remains a documented next step.
+
+[Repository](https://github.com/OnlyVybe/cleanyourtv-samsung-ue32n5300) · [Documentation](https://github.com/OnlyVybe/cleanyourtv-samsung-ue32n5300/tree/main/docs)
 
 ## Technologies
 
@@ -49,6 +63,7 @@ A toolkit for **KIVI 24H600GR (Android TV 7.1.1)** that combines:
   <img src="https://img.shields.io/badge/PowerShell-7C3AED?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell">
   <img src="https://img.shields.io/badge/Bash-7C3AED?style=flat-square&logo=gnubash&logoColor=white" alt="Bash">
   <img src="https://img.shields.io/badge/Android-7C3AED?style=flat-square&logo=android&logoColor=white" alt="Android">
+  <img src="https://img.shields.io/badge/Tizen-7C3AED?style=flat-square&logo=samsung&logoColor=white" alt="Tizen">
   <img src="https://img.shields.io/badge/Git-7C3AED?style=flat-square&logo=git&logoColor=white" alt="Git">
 </p>
 
@@ -56,7 +71,9 @@ A toolkit for **KIVI 24H600GR (Android TV 7.1.1)** that combines:
 
 ## По-русски
 
-Я **Onlyk**, публикую проекты под именем **OnlyVybe**. Интересуюсь разработкой программного обеспечения, ИИ-инструментами и автоматизацией. В проектах делаю упор на практическую пользу, понятную документацию и безопасное применение.
+Я **Onlyk**, публикую проекты под именем **OnlyVybe**. Интересуюсь разработкой программного обеспечения, ИИ-инструментами, автоматизацией и настройкой устройств.
+
+В открытых проектах уделяю внимание практической пользе, точной документации, безопасности и возможности проверить или отменить изменения. Сейчас среди основных направлений — инструменты для Android TV и руководства по конфиденциальности телевизоров Samsung на Tizen.
 
 ---
 
